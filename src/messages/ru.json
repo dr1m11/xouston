@@ -120,8 +120,8 @@
   },
   "footer": {
     "tagline": "IT-студия полного цикла",
-    "copyright": "© 2024 Xouston. Все права защищены.",
+    "copyright": "© {year} Xouston. Все права защищены.",
     "email": "hello@xouston.com",
-    "telegram": "@xouston"
+    "telegram": "@XO_Contact"
   }
 }

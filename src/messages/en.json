@@ -120,8 +120,8 @@
   },
   "footer": {
     "tagline": "Full-cycle IT studio",
-    "copyright": "© 2024 Xouston. All rights reserved.",
+    "copyright": "© {year} Xouston. All rights reserved.",
     "email": "hello@xouston.com",
-    "telegram": "@xouston"
+    "telegram": "@XO_Contact"
   }
 }

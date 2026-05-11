@@ -49,7 +49,7 @@ export default function Footer() {
                 {t("email")}
               </a>
               <a
-                href={`https://t.me/xouston`}
+                href="https://t.me/XO_Contact"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-muted hover:text-primary transition-colors"
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-muted">{t("copyright")}</p>
+          <p className="text-xs text-muted">{t("copyright", { year: new Date().getFullYear() })}</p>
           <p className="text-xs text-muted">
             Сделано с заботой о деталях
           </p>

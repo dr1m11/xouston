@@ -44,7 +44,7 @@ export default function CTA() {
           </a>
           <span className="text-slate-600">·</span>
           <a
-            href="https://t.me/xouston"
+            href="https://t.me/XO_Contact"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-300 hover:text-white transition-colors text-sm"
