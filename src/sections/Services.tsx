@@ -73,13 +73,13 @@ export default function Services() {
           className="bg-primary rounded-2xl p-6 flex flex-col justify-between"
         >
           <p className="text-white font-semibold text-base leading-snug">
-            Не нашли нужное? Обсудим вашу задачу — найдём решение.
+            {t("cta_card_text")}
           </p>
           <button
             onClick={() => document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" })}
             className="mt-6 inline-flex items-center gap-2 text-white text-sm font-medium hover:opacity-80 transition-opacity"
           >
-            Написать нам
+            {t("cta_card_link")}
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

@@ -19,7 +19,7 @@ export default function Footer() {
 
           {/* Nav */}
           <div>
-            <p className="text-sm font-semibold text-dark mb-3">Навигация</p>
+            <p className="text-sm font-semibold text-dark mb-3">{t("nav_heading")}</p>
             <nav className="flex flex-col gap-2">
               {[
                 { label: nav("services"), href: "#services" },
@@ -40,7 +40,7 @@ export default function Footer() {
 
           {/* Contacts */}
           <div>
-            <p className="text-sm font-semibold text-dark mb-3">Контакты</p>
+            <p className="text-sm font-semibold text-dark mb-3">{t("contacts_heading")}</p>
             <div className="flex flex-col gap-2">
               <a
                 href={`mailto:${t("email")}`}
@@ -62,9 +62,7 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-muted">{t("copyright", { year: new Date().getFullYear() })}</p>
-          <p className="text-xs text-muted">
-            Сделано с заботой о деталях
-          </p>
+          <p className="text-xs text-muted">{t("made_with")}</p>
         </div>
       </div>
     </footer>

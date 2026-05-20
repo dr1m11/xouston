@@ -43,14 +43,8 @@ export default function Hero() {
 
       {/* Bento grid */}
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
-        {/* Main card */}
-        <motion.div
-          custom={1}
-          variants={fadeUp}
-          initial="hidden"
-          animate="visible"
-          className="lg:col-span-3 bg-white rounded-2xl border border-border shadow-card p-8 flex flex-col justify-between min-h-[340px]"
-        >
+        {/* Main card — no entrance animation: this is the LCP element, must render immediately */}
+        <div className="lg:col-span-3 bg-white rounded-2xl border border-border shadow-card p-8 flex flex-col justify-between min-h-[340px]">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-dark leading-tight tracking-tight text-balance">
               {t("title").split("\n").map((line, i) => (
@@ -91,7 +85,7 @@ export default function Hero() {
             </div>
             <p className="mt-4 text-xs text-muted">{t("note")}</p>
           </div>
-        </motion.div>
+        </div>
 
         {/* Right column cards */}
         <div className="lg:col-span-2 grid grid-cols-2 lg:grid-cols-1 gap-4">

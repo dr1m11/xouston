@@ -1,4 +1,9 @@
 {
+  "seo": {
+    "home_title": "Xouston — Mobile & Web App Development Studio",
+    "home_description": "Xouston is a full-cycle software development studio: iOS, Android, web apps, DevOps and dedicated developers. NDA-first, transparent processes, EU-ready.",
+    "home_keywords": "mobile app development, web app development, custom software development, dedicated development team, outstaffing, react native development, flutter development, next.js development, devops services, saas development"
+  },
   "nav": {
     "services": "Services",
     "approach": "Approach",
@@ -10,8 +15,8 @@
     "badge1": "NDA-first approach",
     "badge2": "Full cycle",
     "badge3": "EU-ready",
-    "title": "We build products\nthat actually work",
-    "subtitle": "End-to-end mobile and web development, DevOps infrastructure and outstaffing. Deep tech expertise, transparent processes.",
+    "title": "Mobile and web app\ndevelopment, end-to-end",
+    "subtitle": "Full-cycle software studio: iOS, Android, web, DevOps and dedicated developers. Deep stack expertise, transparent processes, NDA-first delivery.",
     "cta_primary": "Get in touch",
     "cta_secondary": "Quick estimate",
     "note": "Response within 1 business day. NDA available.",
@@ -21,7 +26,7 @@
     "card_rhythm_desc": "Transparent statuses, weekly demos, KPI-focused delivery"
   },
   "metrics": {
-    "title": "Results from NDA projects",
+    "title": "Results from NDA-protected projects",
     "subtitle": "Anonymous metrics from real projects — no names, but honest numbers",
     "case1_label": "Case 01 — Fintech",
     "case1_metric": "+34%",
@@ -34,32 +39,34 @@
     "case3_desc": "reduction in operating costs after DevOps process automation"
   },
   "services": {
-    "title": "What we do",
-    "subtitle": "We cover the full cycle — from idea to production support",
+    "title": "Software development services",
+    "subtitle": "We cover the full cycle — from idea and design to release and support",
     "s1_num": "01",
-    "s1_title": "Mobile development",
-    "s1_desc": "iOS, Android and cross-platform. We work with React Native, Flutter, KMP, Swift and Kotlin.",
+    "s1_title": "Mobile app development",
+    "s1_desc": "iOS, Android and cross-platform: React Native, Flutter, KMP, Swift, Kotlin. From MVP to a full product.",
     "s2_num": "02",
-    "s2_title": "Websites & web platforms",
-    "s2_desc": "React, Vue, Next.js — from landing pages to complex dashboards with SEO optimization.",
+    "s2_title": "Web app and SaaS development",
+    "s2_desc": "Next.js, React, Vue — SaaS products, corporate sites and admin panels with SEO from day one.",
     "s3_num": "03",
-    "s3_title": "DevOps & infrastructure",
-    "s3_desc": "CI/CD, monitoring, fault tolerance, scaling. We build a reliable foundation.",
+    "s3_title": "DevOps and infrastructure",
+    "s3_desc": "CI/CD, monitoring, fault tolerance, scaling. We build a reliable foundation for your product.",
     "s4_num": "04",
-    "s4_title": "Telegram & chatbots",
-    "s4_desc": "Process automation, CRM integrations and internal system connectors.",
+    "s4_title": "Telegram bots and chatbots",
+    "s4_desc": "Process automation, integrations with CRM, ERP and internal systems.",
     "s5_num": "05",
     "s5_title": "Backend development",
-    "s5_desc": "Python/Django/FastAPI, PHP/Symfony/Laravel, Go. Microservice architecture.",
+    "s5_desc": "Python (Django, FastAPI), PHP (Symfony, Laravel), Go. Microservice architecture and APIs.",
     "s6_num": "06",
-    "s6_title": "Audit & consulting",
-    "s6_desc": "Code review, architecture audit, performance optimization and tech debt reduction.",
+    "s6_title": "Code audit and architecture consulting",
+    "s6_desc": "Code review, architecture audit, performance optimization and tech-debt reduction.",
     "s7_num": "07",
-    "s7_title": "Outstaffing",
-    "s7_desc": "A dedicated developer or team for your project. We integrate into your processes."
+    "s7_title": "Outstaffing and dedicated developers",
+    "s7_desc": "A dedicated developer or team for your project. We integrate into your processes and tools.",
+    "cta_card_text": "Didn't find the service you need? Let's discuss your task — we'll find a solution.",
+    "cta_card_link": "Get in touch"
   },
   "approach": {
-    "title": "How we work",
+    "title": "How we build software products",
     "subtitle": "A clear process with no surprises — you always know what's happening",
     "step1_title": "Brief",
     "step1_desc": "We dive into the task, business context and expectations",
@@ -77,7 +84,7 @@
     "step7_desc": "Maintenance, improvements and product scaling"
   },
   "tech": {
-    "title": "Tech stack",
+    "title": "Tech stack: Mobile, Frontend, Backend, DevOps",
     "subtitle": "Proven tools for projects of any scale",
     "mobile": "Mobile",
     "frontend": "Frontend",
@@ -85,8 +92,8 @@
     "devops": "DevOps"
   },
   "whyus": {
-    "title": "Why choose us",
-    "subtitle": "Not words, but principles built into the process",
+    "title": "Why teams choose Xouston",
+    "subtitle": "Principles built into the process — not marketing slogans",
     "w1_title": "NDA-first",
     "w1_desc": "Confidentiality by default. We sign NDA before any discussions.",
     "w2_title": "Full cycle",
@@ -97,9 +104,9 @@
     "w4_desc": "Full project or team augmentation — choose the format that suits you."
   },
   "faq": {
-    "title": "FAQ",
+    "title": "Software development FAQ",
     "subtitle": "Answers to the most common questions",
-    "q1": "How much does development cost?",
+    "q1": "How much does app development cost?",
     "a1": "Cost depends on scale and stack. A small MVP starts from $2,500, a full product is quoted individually. We give a detailed estimate after the brief, with no hidden fees.",
     "q2": "How long does development take?",
     "a2": "MVP in 4–8 weeks, a full-cycle product from 3 months. We give realistic timelines and stick to them.",
@@ -108,7 +115,7 @@
     "q4": "What guarantees do you provide?",
     "a4": "We fix scope and deadlines in the contract. Bugs found after delivery are fixed for free during the warranty period.",
     "q5": "Can you join an existing project?",
-    "a5": "Yes, outstaffing is one of our core directions. We integrate a developer or team into your processes and tools.",
+    "a5": "Yes, outstaffing of developers is one of our core directions. We integrate a developer or team into your processes and tools.",
     "q6": "How does post-launch support work?",
     "a6": "We offer support packages: monitoring, quick fixes, planned updates. Terms are discussed individually."
   },
@@ -119,9 +126,12 @@
     "note": "Or reach out directly:"
   },
   "footer": {
-    "tagline": "Full-cycle IT studio",
+    "tagline": "Full-cycle software studio",
     "copyright": "© {year} Xouston. All rights reserved.",
     "email": "hello@xouston.com",
-    "telegram": "@XO_Contact"
+    "telegram": "@XO_Contact",
+    "nav_heading": "Navigation",
+    "contacts_heading": "Contacts",
+    "made_with": "Built with care for details"
   }
 }

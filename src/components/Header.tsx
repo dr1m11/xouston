@@ -2,7 +2,7 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "@/navigation";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -29,11 +29,7 @@ export default function Header() {
 
   const toggleLocale = () => {
     const next = locale === "ru" ? "en" : "ru";
-    const newPath =
-      next === "ru"
-        ? pathname.replace(/^\/en/, "") || "/"
-        : `/en${pathname}`;
-    router.push(newPath);
+    router.replace(pathname, { locale: next });
   };
 
   return (
