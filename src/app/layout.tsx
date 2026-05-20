@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   verification: {
     google: process.env.GOOGLE_SITE_VERIFICATION,
-    yandex: process.env.YANDEX_SITE_VERIFICATION,
+    yandex: "550edc5c18955a59",
   },
 };
 
